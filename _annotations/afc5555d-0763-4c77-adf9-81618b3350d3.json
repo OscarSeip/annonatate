@@ -1,0 +1,45 @@
+---
+canvas: "https://iiif.archivelab.org/iiif/gri_33125008297760$10/canvas"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test",
+            "purpose": "commenting",
+            "creator": {
+                "id": "OscarSeip",
+                "name": "OscarSeip"
+            },
+            "created": "2021-07-09T09:08:10.148Z",
+            "modified": "2021-07-09T09:08:10.495Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "test",
+            "purpose": "tagging",
+            "creator": {
+                "id": "OscarSeip",
+                "name": "OscarSeip"
+            },
+            "created": "2021-07-09T09:08:12.765Z",
+            "modified": "2021-07-09T09:08:13.117Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif.archivelab.org/iiif/gri_33125008297760$10/canvas",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:779.1924438476562,928.5256958007812,506.12322998046875,459.31060791015625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://d.lib.ncsu.edu/collections/catalog/mc00084-001-te0159-000-001_0001/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "{{site.url}}{{site.baseurl}}/annotations/afc5555d-0763-4c77-adf9-81618b3350d3.json"
+}
